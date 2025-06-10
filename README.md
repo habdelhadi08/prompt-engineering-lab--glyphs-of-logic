@@ -23,27 +23,36 @@ Each prompt follows a consistent schema for clarity and adaptability:
 {
     "name": "descriptive_prompt_name",
     "framework": "RACE | APE | TAG",
-    "strategy": "zero-shot | one-shot | Framework Prompting",
+    "strategy": "zero-shot | one-shot | framework prompting",
     "tool": "ChatGPT",
     "goal": "Describe the problem this prompt solves",
     "prompt": """Full text of the prompt"""
 }
+```
 
-🧠 Best Practices
-Use structured frameworks (R.A.C.E., A.P.E.) to ensure clarity
+---
 
-Include goals to track prompt purpose
+🧠 **Best Practices**
 
-Test and iterate prompts regularly with your LLMs
+- Use structured frameworks (R.A.C.E., A.P.E.) to ensure clarity  
+- Include goals to track the purpose of each prompt  
+- Test and iterate prompts regularly with your LLMs  
+- Organize prompts by domain (e.g., education, marketing, code generation)  
 
-Organize prompts by domain (e.g., education, marketing, code generation)
+---
 
-🤝 Contributing
-Feel free to fork and contribute additional prompt templates, framework styles, or enhancements. 
+🤝 **Contributing**
 
-📬 Contact
+Feel free to fork and contribute additional prompt templates, framework styles, or enhancements. Prompt responsibly.
+
+---
+
+📬 **Contact**
 Data Scientist: Heba Abdelhadi
 📧 habdelhadi08@gmail.com
 📍 Shelby Township, MI
 📅 Capstone Project for Qwasar Data Science & Machine Learning Bootcamp
+
+---
+
 
