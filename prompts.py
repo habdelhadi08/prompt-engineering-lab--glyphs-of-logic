@@ -202,7 +202,7 @@ Tools Used:
 - ChatGPT (GPT-4o)
 
 Prompting Strategies:
-- Zero-shot, one-shot, few-shot
+- Zero-shot, one-shot, Framework Prompting
 - R.A.C.E, A.P.E, T.A.G frameworks
 - Clarified roles and goals to guide outputs
 
