@@ -1,9 +1,5 @@
-# Create a Python file named prompts.py with prompt engineering examples
 
-content = '''"""
-Prompt Engineering Portfolio - Qwasar Project
-Author: Heba Abdelhadi
-File: prompts.py
+'''"""
 Description:
 This file includes multiple prompt engineering examples using different frameworks:
 - R.A.C.E (Role, Action, Context, Expectation)
@@ -161,22 +157,41 @@ Tool Used: ChatGPT (GPT-4o)
 Goal: Extract key themes from a user review for a wine app.
 """
 
-prompt_tag = """
-Task: Extract themes from this user review:
-"This app makes discovering new wines super fun! I love how it remembers my taste and gives smart suggestions. The only issue is that sometimes the prices aren't accurate."
+prompt = """
+Task: "Analyze the advantages and disadvantages of using AI in general"
 
-Action: Return 3 main themes in a list format.
+Action: Return 3 adavantages of disadvatages of using AI.
 
-Goal: We want to identify common feedback trends to improve the recommendation engine.
+Goal: We want to identify common reasons why we should or shouldn`t use AI.
 """
 
-response_tag = """
-1. Personalized wine recommendations
-2. User-friendly and fun experience
-3. Inaccurate pricing information
+response= """
+Here are three common advantages and disadvantages of using AI, based on practical and ethical considerations:
+
+✅ Advantages of Using AI:
+Increased Efficiency and Automation
+AI can automate repetitive tasks, analyze data faster, and operate continuously without fatigue, significantly increasing productivity in industries like manufacturing, healthcare, and finance.
+
+Enhanced Decision-Making
+AI systems can process large volumes of data and identify patterns humans might miss, leading to better forecasting, diagnostics, and strategic decisions.
+
+Personalization and Customer Experience
+AI powers recommendation engines and chatbots, enabling businesses to deliver personalized services and improve user satisfaction across platforms like e-commerce, streaming, and customer support.
+
+❌ Disadvantages of Using AI:
+Job Displacement and Economic Inequality
+Automation of tasks can lead to job losses, particularly in sectors like transportation, retail, and clerical work, potentially widening economic inequality if not managed properly.
+
+Bias and Ethical Concerns
+AI systems can inherit biases from training data, leading to unfair or discriminatory outcomes—especially in sensitive applications like hiring, policing, or lending.
+
+Lack of Transparency (Black Box Problem)
+Many AI models, especially deep learning ones, operate in ways that are not easily understandable. This makes it difficult to audit decisions or hold systems accountable for mistakes.
+
+These pros and cons highlight the need for responsible development, regulation, and human oversight when implementing AI technologies.
 """
 
-# Observation: The model successfully broke down sentiments into actionable product insights.
+# Observation: The model successfully broke down sentiments into actionable insights.
 
 # ========================================
 # Summary & Reflection
@@ -198,11 +213,7 @@ Learnings:
 """
 '''
 
-# Save the content to prompts.py
-with open("/mnt/data/prompts.py", "w") as f:
-    f.write(content)
 
-"/mnt/data/prompts.py"
 
 
 
